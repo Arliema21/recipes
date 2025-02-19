@@ -1,0 +1,20 @@
+body{
+    background-color: #FEFAE0;
+}
+ol>li{
+    margin:10px auto;
+}
+h2 , h4{
+    margin:0;
+}
+.variation > h2{
+    font-size: medium;
+   
+    font-style: oblique;
+}
+.variation >ul li{
+    margin: 10px auto;
+}
+span{
+    font-weight: 700;
+}
