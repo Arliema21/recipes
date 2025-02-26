@@ -1,0 +1,85 @@
+/*HEADER*/
+body{
+    margin: 0;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #626F47;
+    height: 55px;
+}
+h1 em{
+    color: red;
+}
+h1{
+    margin: auto 20px ;
+}
+.verse{
+    min-width: 195px;
+    max-width: 325px;
+    margin: auto;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    
+}
+
+/*recipes*/
+#recipes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 20px;
+}
+section{
+display: flex;
+flex-direction: column;
+align-items: center;
+border: 1px #A4B465 solid;
+border-radius: 20px;
+height: 280px;
+min-width: 250px;
+
+}
+h3{
+    margin: 10px auto;
+}
+.recipe-image{
+    width: 190px;
+    height: 200px;
+    border-radius: 10px;
+}
+.bibingka > h3{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.bibingka > h5{
+    margin: 0;
+}
+.chef{
+    margin: 10px;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+/** IMAGE LINK **/
+.recipe:hover{
+    background-color: #A4B465;
+    color: whitesmoke;
+    border: 1px #5c6634 solid;
+}
+.recipe:active{
+    background-color: #626F47;
+    color: whitesmoke;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 560px){
+    header{
+        height: 80px;
+    }
+}
